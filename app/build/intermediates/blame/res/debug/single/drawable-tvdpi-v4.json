@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/about_button_image.xml",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/about_button_image.xml"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/learn_navi_button_image.xml",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/learn_navi_button_image.xml"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/disclaimer_button_image.xml",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/disclaimer_button_image.xml"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/return_home_button_image.xml",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/return_home_button_image.xml"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/resources_button_image.xml",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/resources_button_image.xml"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/dictionary_button_image.xml",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/dictionary_button_image.xml"
+    }
+]

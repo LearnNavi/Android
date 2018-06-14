@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/xml/userprefs.xml",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/xml/userprefs.xml"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/xml/searchable.xml",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/xml/searchable.xml"
+    }
+]

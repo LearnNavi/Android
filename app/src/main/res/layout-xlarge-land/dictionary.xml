@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- main layout -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"  
+  android:layout_height="fill_parent">
+  <!-- left sidebar -->
+  <LinearLayout 
+	  android:layout_height="wrap_content" 
+	  android:layout_width="256dip" 
+	  android:layout_marginLeft="0dip" 
+	  android:layout_marginRight="0dip">
+	  <LinearLayout 
+		android:orientation="vertical" 
+		android:layout_height="wrap_content" 
+		android:layout_width="256dip" 
+		android:layout_marginLeft="0dip" 
+		android:layout_marginRight="0dip"> 
+		<!-- direction button -->
+        <Button 
+		  style="?android:attr/buttonStyleSmall" 
+		  android:layout_height="wrap_content" 
+		  android:id="@+id/DictionaryType" 
+		  android:layout_width="fill_parent">
+	    </Button>
+		<!-- irrelevant invisibe button -->
+        <Button 
+		  style="?android:attr/buttonStyleSmall" 
+		  android:layout_height="wrap_content" 
+		  android:id="@+id/CancelSearch" 
+		  android:text="@string/CancelSearch" 
+		  android:layout_width="fill_parent" 
+		  android:visibility="gone">
+        </Button>
+		<!-- part of speech spinner -->
+	    <Spinner 
+		  style="?android:attr/buttonStyleSmall" 
+		  android:id="@+id/Spinner01" 
+		  android:layout_height="wrap_content" 
+		  android:layout_width="256dip" 
+		  android:entries="@array/partsOfSpeech" 
+		  android:layout_marginLeft="0dip" 
+		  android:layout_marginRight="0dip" 
+	 	  android:text="text">
+        </Spinner>
+		<!-- search button -->
+        <Button 
+ 		  style="?android:attr/buttonStyleSmall" 
+		  android:layout_height="wrap_content" 
+		  android:id="@+id/SearchButton" 
+		  android:text="@string/Search" 
+		  android:layout_width="fill_parent">
+        </Button> 
+	  </LinearLayout>
+  </LinearLayout>
+  <!-- end left sidebar -->
+  
+  <!-- layout of word list -->
+  <FrameLayout 
+	  android:id="@+id/FrameLayout01" 
+	  android:layout_height="fill_parent" 
+	  android:layout_weight="1" 
+	  android:layout_width="512dip" 
+	  android:layout_marginLeft="0dip" 
+	  android:layout_marginRight="0dip">
+	  <!-- word list -->
+      <ListView 
+		android:id="@android:id/list" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:fastScrollEnabled="true">
+      </ListView>
+	  <!-- nothing -->
+      <TextView 
+		android:id="@android:id/empty" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:text="@string/no_entries" />
+  </FrameLayout>
+  <!-- end word list layout -->
+</LinearLayout>
+<!-- end main layout -->

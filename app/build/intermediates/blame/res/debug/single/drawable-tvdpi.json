@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/disclaimer_button_highlighted.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/disclaimer_button_highlighted.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/return_home_button.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/return_home_button.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/about_background.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/about_background.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/return_home_button_highlighted.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/return_home_button_highlighted.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/disclaimer_button.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/disclaimer_button.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/dictionary_button.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/dictionary_button.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/disclaimer_background_landscape.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/disclaimer_background_landscape.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/home_screen_background_landscape.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/home_screen_background_landscape.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/learn_navi_button.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/learn_navi_button.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/resources_button_highlighted.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/resources_button_highlighted.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/resources_background_landscape.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/resources_background_landscape.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/dictionary_button_highlighted.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/dictionary_button_highlighted.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/about_background_landscape.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/about_background_landscape.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/resources_button.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/resources_button.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/resources_background.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/resources_background.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/disclaimer_background.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/disclaimer_background.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/refresh.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/refresh.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/about_button_highlighted.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/about_button_highlighted.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/home_screen_background.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/home_screen_background.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/learn_navi_button_highlighted.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/learn_navi_button_highlighted.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/about_button.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/about_button.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/about_disclaimer_background.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/about_disclaimer_background.png"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/drawable-tvdpi/icon.png",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/drawable-tvdpi/icon.png"
+    }
+]

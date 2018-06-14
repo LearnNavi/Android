@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/layout/kelutral_main.xml",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/layout/kelutral_main.xml"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/layout/dictionary.xml",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/layout/dictionary.xml"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/layout/entry_category.xml",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/layout/entry_category.xml"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/layout/dictionary_entry.xml",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/layout/dictionary_entry.xml"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/layout/entry_row.xml",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/layout/entry_row.xml"
+    },
+    {
+        "merged": "/Users/corey/Documents/GitHub/Android/app/build/intermediates/res/merged/debug/layout/spinnerrow.xml",
+        "source": "/Users/corey/Documents/GitHub/Android/app/src/main/res/layout/spinnerrow.xml"
+    }
+]

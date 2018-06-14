@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:orientation="vertical" 
+  android:layout_height="fill_parent">
+
+  <!-- Direction button -->
+  <Button 
+	  style="?android:attr/buttonStyleSmall" 
+	  android:layout_height="wrap_content" 
+	  android:layout_width="fill_parent" 
+	  android:id="@+id/DictionaryType">
+  </Button>
+  <!-- Irrelevant invisible button -->
+  <Button 
+	  style="?android:attr/buttonStyleSmall" 
+	  android:layout_height="wrap_content" 
+	  android:id="@+id/CancelSearch" 
+	  android:text="@string/CancelSearch"
+	  android:layout_width="fill_parent"
+	  android:visibility="gone">
+  </Button>
+  <!-- Search Button -->
+  <Button 
+	  style="?android:attr/buttonStyleSmall"
+	  android:layout_height="wrap_content"
+	  android:id="@+id/SearchButton" 
+	  android:text="@string/Search"
+	  android:layout_width="fill_parent">
+  </Button> 
+
+  <!-- Dictionary word list -->
+  <FrameLayout 
+	  android:layout_height="0dp"
+	  android:layout_width="fill_parent" 
+	  android:layout_weight="1">
+    <ListView 
+		android:id="@android:id/list"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:fastScrollEnabled="true">
+	</ListView>
+    <TextView 
+		android:id="@android:id/empty"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="@string/no_entries" />
+  </FrameLayout>
+  
+  <!-- Part of speech spinner -->
+  <Spinner  
+	  style="?android:attr/buttonStyleSmall"
+	  android:id="@+id/Spinner01"
+	  android:layout_height="wrap_content"
+	  android:layout_width="fill_parent"
+	  android:entries="@array/partsOfSpeech"
+	  android:layout_marginLeft="10dip" 
+	  android:layout_marginRight="10dip">
+  </Spinner>
+</LinearLayout>

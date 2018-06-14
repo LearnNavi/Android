@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewAnimator xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/ViewAnimator01"
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+
+    <!-- Main Page -->
+
+	<RelativeLayout 
+	    android:id="@+id/MainView"
+		android:layout_width='fill_parent' 
+		android:layout_height='fill_parent' 
+		android:orientation='vertical' 
+		android:background='@drawable/home_screen_background'>
+		<Button
+			android:id='@+id/DictionaryButton'
+			android:layout_width="280dip"
+			android:layout_height="60dip"
+			android:layout_centerHorizontal="true"
+			android:layout_centerInParent='false'
+			android:layout_marginBottom='10dip'
+			android:layout_marginTop="300dip"
+			android:background="@drawable/button_purple_image"
+			android:clickable='true'
+			android:text="Dictionary"
+			android:textAllCaps="false"
+			android:textSize="30sp">
+		</Button>
+		<Button
+			android:id="@+id/ResourcesButton"
+			android:layout_width="280dip"
+			android:layout_height="60dip"
+			android:layout_below="@id/DictionaryButton"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop="5dip"
+			android:background="@drawable/button_purple_image"
+			android:clickable="true"
+			android:text="Resources"
+			android:textAllCaps="false"
+			android:textSize="30sp">
+		</Button>
+		<TextView
+		    android:id="@+id/FullVersionTextView"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:layout_centerHorizontal="true"
+		    android:layout_marginBottom="48dp"
+		    android:text="@string/VersionStringBeta"
+		    android:textColor="#ff6200"></TextView>
+	</RelativeLayout>
+
+	<!-- Resources page -->
+
+	<RelativeLayout
+	    android:id="@+id/ResourcesView"
+		android:layout_width='fill_parent'
+		android:layout_height='fill_parent'
+		android:background='@drawable/resources_background'
+		android:baselineAligned="false">
+
+		<TextView
+			android:id="@+id/ResourcesTextView"
+			android:layout_width="280dip"
+			android:layout_height="60dip"
+			android:layout_alignLeft="@+id/AboutButton"
+			android:layout_alignParentTop="true"
+			android:layout_alignStart="@+id/AboutButton"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginTop="36dp"
+			android:gravity="left"
+			android:text="Resources"
+			android:textColor="#00f900"
+			android:textSize="48sp"></TextView>
+
+		<Button
+			android:id="@+id/AboutButton"
+			android:layout_width="280dip"
+			android:layout_height="60dip"
+			android:layout_above="@+id/LearnNaviOrgButton"
+			android:layout_alignLeft="@+id/LearnNaviOrgButton"
+			android:layout_alignStart="@+id/LearnNaviOrgButton"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginBottom="15dp"
+			android:background="@drawable/button_purple_image"
+			android:clickable="true"
+			android:text="About"
+			android:textAllCaps="false"
+			android:textSize="30sp"></Button>
+
+		<Button
+			android:id="@+id/LearnNaviOrgButton"
+			android:layout_width="280dip"
+			android:layout_height="60dip"
+
+			android:layout_above="@+id/DisclaimerButton"
+			android:layout_alignLeft="@+id/DisclaimerButton"
+			android:layout_alignStart="@+id/DisclaimerButton"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginBottom="13dp"
+			android:background="@drawable/button_purple_image"
+			android:clickable="true"
+			android:text="LearnNavi.org"
+			android:textAllCaps="false"
+			android:textSize="30sp"></Button>
+
+		<Button
+			android:id="@+id/DisclaimerButton"
+			android:layout_width="280dip"
+			android:layout_height="60dip"
+			android:layout_above="@+id/ReturnFromResourcesButton"
+			android:layout_alignLeft="@+id/ReturnFromResourcesButton"
+			android:layout_alignStart="@+id/ReturnFromResourcesButton"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginBottom="74dp"
+			android:background="@drawable/button_purple_image"
+			android:clickable="true"
+			android:text="Disclaimer"
+			android:textAllCaps="false"
+			android:textSize="30sp"></Button>
+
+		<Button
+			android:id="@+id/ReturnFromResourcesButton"
+			android:layout_width="280dip"
+			android:layout_height="60dip"
+			android:layout_alignParentBottom="true"
+			android:layout_centerHorizontal="true"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginBottom="59dp"
+			android:background="@drawable/return_home_button_image"
+			android:clickable="true"
+			android:text="Back"
+			android:textAllCaps="false"
+			android:textSize="30sp"></Button>
+
+	</RelativeLayout>
+
+	<!-- About Page -->
+
+	<RelativeLayout
+		android:id="@+id/AboutView"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@drawable/about_disclaimer_background"
+		android:orientation="vertical">
+
+		<TextView
+			android:id="@+id/AboutText"
+			android:layout_width="280dip"
+			android:layout_height="60dip"
+			android:layout_alignLeft="@+id/AboutTextView"
+			android:layout_alignParentTop="true"
+			android:layout_alignStart="@+id/AboutTextView"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginTop="48dp"
+			android:gravity="left"
+			android:text="About"
+			android:textColor="#00f900"
+			android:textSize="48sp"></TextView>
+
+		<TextView
+			android:id="@+id/AboutTextView"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:layout_marginLeft="80dp"
+			android:paddingBottom="2.5dp"
+			android:scrollbars="vertical"
+			android:text="@string/About"
+			android:textColor="#fff"
+			android:textSize="16sp"></TextView>
+
+		<TextView
+			android:id="@+id/DBVersionTextView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignEnd="@+id/ReturnFromAboutButton"
+			android:layout_alignParentBottom="true"
+			android:layout_alignRight="@+id/ReturnFromAboutButton"
+			android:shadowColor="#000"
+			android:shadowDx="1.0"
+			android:shadowDy="1.0"
+			android:shadowRadius="3.0"
+			android:text="@string/DBVersionString"
+			android:textColor="#ffd080"
+			android:textSize="12sp"></TextView>
+
+		<TextView
+			android:id="@+id/VersionTextView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignLeft="@+id/ReturnFromAboutButton"
+			android:layout_alignParentBottom="true"
+			android:layout_alignStart="@+id/ReturnFromAboutButton"
+			android:shadowColor="#000"
+			android:shadowDx="2.0"
+			android:shadowDy="2.0"
+			android:shadowRadius="5.0"
+			android:text="@string/VersionString"
+			android:textColor="#ff6200"
+			android:textSize="12sp"
+			android:textStyle="bold"></TextView>
+
+		<Button
+			android:id="@+id/ReturnFromAboutButton"
+			android:layout_width="280dip"
+			android:layout_height="60dip"
+			android:layout_alignLeft="@+id/AboutTextView"
+			android:layout_alignStart="@+id/AboutTextView"
+			android:layout_below="@+id/AboutTextView"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginTop="41dp"
+			android:background="@drawable/return_home_button_image"
+			android:clickable="true"
+			android:text="Back"
+			android:textAllCaps="false"
+			android:textSize="30sp"></Button>
+	</RelativeLayout>
+
+	<!-- Disclaimer Page -->
+
+	<LinearLayout
+        android:id="@+id/DisclaimerView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/about_disclaimer_background"
+        android:orientation="horizontal" 
+        android:baselineAligned="false">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+			<TextView
+				android:id="@+id/DisclaimerText"
+				android:layout_width="280dip"
+				android:layout_height="60dip"
+				android:layout_alignLeft="@+id/DisclaimerTextView"
+				android:layout_alignParentTop="true"
+				android:layout_alignStart="@+id/DisclaimerTextView"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginTop="53dp"
+				android:gravity="left"
+				android:text="Disclaimer"
+				android:textColor="#00f900"
+				android:textSize="48sp"></TextView>
+            <TextView
+                android:id="@+id/DisclaimerTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingBottom="2.5dp"
+                android:layout_marginLeft="80dp"
+                android:scrollbars="vertical"
+                android:shadowColor="#000"
+                android:shadowDx="0.0"
+                android:shadowDy="0.0"
+                android:shadowRadius="2.0"
+                android:text="@string/Disclaimer"
+                android:textColor="#fff"
+                android:textSize="16sp" >
+            </TextView>
+
+			<Button
+				android:id="@+id/ReturnFromDisclaimerButton"
+				android:layout_width="280dip"
+				android:layout_height="60dip"
+				android:layout_alignLeft="@+id/DisclaimerTextView"
+				android:layout_alignStart="@+id/DisclaimerTextView"
+				android:layout_below="@+id/DisclaimerTextView"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginTop="53dp"
+				android:background="@drawable/return_home_button_image"
+				android:clickable="true"
+				android:text="Back"
+				android:textAllCaps="false"
+				android:textSize="30sp"></Button>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ViewAnimator>
