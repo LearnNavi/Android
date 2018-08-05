@@ -1,7 +1,0 @@
-#Sun Jan 07 18:42:01 EST 2018
-base.0=/Users/corey/Documents/GitHub/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_205cc679315a49db9939007ec27998ac98f94b00
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/corey/Documents/GitHub/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3470ea18ae4e44c9bb080ca7008136b25c31cf12/classes.dex
-base.1=/Users/corey/Documents/GitHub/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3470ea18ae4e44c9bb080ca7008136b25c31cf12
-file.0=/Users/corey/Documents/GitHub/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_205cc679315a49db9939007ec27998ac98f94b00/classes.dex

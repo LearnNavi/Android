@@ -1,6 +1,5 @@
 # Built application files
-*.apk
-*.ap_
+/*/build/
 
 # Files for the ART/Dalvik VM
 *.dex
@@ -66,3 +65,9 @@ fastlane/readme.md
 
 # macOS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
